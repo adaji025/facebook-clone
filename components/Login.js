@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { useSession, signIn } from 'next-auth/react'
+import { signIn } from 'next-auth/react'
 
 const Login = () => {
   return (
